@@ -42,7 +42,7 @@ class Problem:
 
 class GASolution:
     chromosomes = []  # 所有染色体
-    iterators = []
+    iterators = []  # 用于分隔车辆
     costs = []  # 每条染色体的目标函数值
     stations = []
     vehicles = []
